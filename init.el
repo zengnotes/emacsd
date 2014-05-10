@@ -14,6 +14,7 @@
 (require 'init-frame-hooks)
 (require 'init-xterm)
 (require 'init-themes)
+(require 'init-fonts)
 (require 'init-linum-mode)
 (require 'init-osx-keys)
 (require 'init-gui-frames)
@@ -29,7 +30,7 @@
 (require 'init-smex)
 (require 'init-evil)
 
-
+(require 'init-golang)
 
 ;;----------------------------------------------------------------------------
 ;; Variables configured via the interactive 'customize' interface

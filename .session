@@ -1,25 +1,16 @@
-;;; Automatically generated on Sat May 10 18:24:53 2014
+;;; Automatically generated on Sat May 10 22:06:43 2014
 ;;; Invoked by nothingness@mebar using 24.3.1
-(setq-default kill-ring '(#("
-" 0 1 (fontified t)) #(";;(cust
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- ;'(custom-safe-themes (quote (\"4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4\" default))))
-;;(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- ;;)
-" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 3 (face font-lock-comment-face fontified t) 3 7 (face font-lock-comment-face fontified t) 7 8 (fontified t) 8 9 (fontified t) 9 12 (fontified t face font-lock-comment-delimiter-face) 12 32 (fontified t face font-lock-comment-face) 32 53 (fontified t face font-lock-comment-face) 53 54 (fontified t) 54 55 (fontified t) 55 58 (fontified t face font-lock-comment-delimiter-face) 58 118 (fontified t face font-lock-comment-face) 118 119 (fontified t) 119 120 (fontified t) 120 123 (fontified t face font-lock-comment-delimiter-face) 123 176 (fontified t face font-lock-comment-face) 176 177 (fontified t) 177 178 (fontified t) 178 181 (fontified t face font-lock-comment-delimiter-face) 181 230 (fontified t face font-lock-comment-face) 230 231 (fontified t) 231 232 (fontified t) 232 233 (fontified t face font-lock-comment-delimiter-face) 233 340 (fontified t face font-lock-comment-face) 340 341 (fontified t) 341 343 (fontified t face font-lock-comment-delimiter-face) 343 360 (fontified t face font-lock-comment-face) 360 361 (fontified t) 361 362 (fontified t) 362 365 (fontified t face font-lock-comment-delimiter-face) 365 402 (fontified t face font-lock-comment-face) 402 403 (fontified t) 403 404 (fontified t) 404 407 (fontified t face font-lock-comment-delimiter-face) 407 467 (fontified t face font-lock-comment-face) 467 468 (fontified t) 468 469 (fontified t) 469 472 (fontified t face font-lock-comment-delimiter-face) 472 525 (fontified t face font-lock-comment-face) 525 526 (fontified t) 526 527 (fontified t) 527 530 (fontified t face font-lock-comment-delimiter-face) 530 579 (fontified t face font-lock-comment-face) 579 580 (fontified t) 580 581 (fontified t) 581 583 (fontified t face font-lock-comment-delimiter-face) 583 584 (fontified t face font-lock-comment-face) 584 585 (fontified t)) #("om-set-variables" 0 16 (fontified t face font-lock-comment-face)) "(setq *xemacs* (featurep 'xemacs) )" "linum-mode" #("(require 'init-themes)" 0 1 (fontified t) 1 8 (face font-lock-keyword-face fontified t) 8 10 (fontified t) 10 21 (face font-lock-constant-face fontified t) 21 22 (fontified t)) "linum" "(provide 'init)" "(require-package 'diminish)" "(require 'init-editing-utils)"))
-(setq-default session-file-alist '(("~/.emacs.d/init.el" 1 2053 1 nil nil 2053 (overwrite-mode)) ("~/.emacs.d/custom.el" 1 nil 1 nil nil 635 (overwrite-mode))))
-(setq-default file-name-history '("~/.emacs.d/custom.el" "~/.emacs.d/init.el" "/Users/nothingness/.emacs.d/custom.el" "/tmp/test.htm" "/Users/nothingness/.emacs.d/init.el"))
-(setq-default command-history '((find-file "/Users/nothingness/.emacs.d/custom.el") (find-file "/tmp/test.htm") (find-file "/Users/nothingness/.emacs.d/init.el") (find-file "~/.emacs.d/init.el" t)))
-(setq-default extended-command-history '("file://" "package-list-packages" "exit-minibuffer" "quickurl" "5x5" ":q" "popwin:one-window" "cd"))
-(setq-default ido-buffer-history '("*Packages*" "*Help*" "train.html" " *undo-tree*"))
-(setq-default ido-file-history '("custom.el" "test.htm" "init.el" "init-frame-hooks.el" "init-osx-keys.el" "init-utils.el" "init-compat.el" "." "train.html" "5yluyin Google分析代码.txt" ".vimrc"))
+(setq-default session-file-alist '(("/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" 358 545 1 nil nil 19 (overwrite-mode)) ("/Volumes/workspaces/eclipse/gotest/src/hollewold.go" 189 189 1 nil nil 166 (overwrite-mode)) ("~/.emacs.d/init.el" 1 2053 1 nil nil 2053 (overwrite-mode)) ("~/.emacs.d/custom.el" 1 nil 1 nil nil 635 (overwrite-mode))))
+(setq-default file-name-history '("/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-golang.el" "~/.emacs.d/init.el" "/Users/nothingness/.emacs.d/lisp/init-auto-complete.el" "/Users/nothingness/.emacs.d/init.el" "/Users/nothingness/.emacs.d/lisp/init-golang.el" "/Users/nothingness/.emacs.d/custom.el" "/tmp/test.htm"))
+(setq-default regexp-search-ring '("\\_<Printf\\_>"))
+(setq-default buffer-name-history '("custom.el" "init.el" "*compilation*" "init-auto-complete.el"))
+(setq-default command-history '((find-file "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go") (shell nil) (kill-buffer "custom.el") (insert-file "/Volumes/workspaces/eclipse/gotest/src/hollewold.go") (kill-buffer "init.el") (kill-buffer "*compilation*") (compile "make -k " nil) (godoc "net") (kill-buffer "init-auto-complete.el") (find-file "/Users/nothingness/.emacs.d/lisp/init-auto-complete.el") (find-file "/Users/nothingness/.emacs.d/init.el") (find-file "/Users/nothingness/.emacs.d/lisp/init-golang.el") (godef-jump (point)) (find-tag "ni") (godoc "net/http") (find-file "/Volumes/workspaces/eclipse/gotest/src/hollewold.go") (find-file "/Users/nothingness/.emacs.d/custom.el") (find-file "/tmp/test.htm") (find-file "~/.emacs.d/init.el" t)))
+(setq-default compile-history '("make -k "))
+(setq-default extended-command-history '("shell" "godoc" "file://" "package-list-packages" "exit-minibuffer" "quickurl" "5x5" ":q" "popwin:one-window" "cd"))
+(setq-default find-tag-history '("ni"))
+(setq-default go-godoc-history '("net" "net/http"))
+(setq-default ido-buffer-history '("custom.el" "init.el" "*compilation*" "init-auto-complete.el" "*Packages*" "*Help*" "train.html" " *undo-tree*"))
+(setq-default ido-file-history '("testbeego.go" "hollewold.go" "init-auto-complete.el" "init.el" "init-golang.el" "custom.el" "test.htm" "init-frame-hooks.el" "init-osx-keys.el" "init-utils.el" "init-compat.el" "." "train.html" "5yluyin Google分析代码.txt" ".vimrc"))
 (setq-default occur-collect-regexp-history '("\\1"))
-(setq-default smex-history '(goto-line cd shell isearch-exit package-list-packages exit-minibuffer quickurl))
+(setq-default smex-history '(godoc shell goto-line cd isearch-exit package-list-packages quickurl))
 (setq-default yes-or-no-p-history '("yes"))
