@@ -1,0 +1,55 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat May 10 18:24:54 2014
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq comint-input-ring nil)
+(setq compile-history nil)
+(setq desktop-missing-file-warning nil)
+(setq extended-command-history '("file://" "package-list-packages" "exit-minibuffer" "quickurl" "5x5" ":q" "popwin:one-window" "cd"))
+(setq face-name-history nil)
+(setq file-name-history '("~/.emacs.d/custom.el" "~/.emacs.d/init.el" "/Users/nothingness/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "/tmp/test.htm" "/Users/nothingness/.emacs.d/init.el" "~/.emacs.d/init.el"))
+(setq grep-find-history nil)
+(setq grep-history nil)
+(setq ido-buffer-history '("*Packages*" "*Help*" "train.html" " *undo-tree*"))
+(setq ido-last-directory-list '(("/Users/nothingness/.emacs.d/" . "lisp/") ("/Users/nothingness/" . ".emacs.d/") ("/Volumes/workspaces/VMDE/data/workspaces/" . "027model/") ("/Volumes/workspaces/VMDE/data/" . "workspaces/") ("/Volumes/workspaces/VMDE/" . "data/") ("/Volumes/workspaces/" . "VMDE/") ("/Volumes/" . "workspaces/") ("/" . "tmp/")))
+(setq ido-work-directory-list '("/Users/nothingness/.emacs.d/" "/tmp/" "/Volumes/workspaces/VMDE/data/workspaces/027model/" "/Users/nothingness/Downloads/" "/Users/nothingness/"))
+(setq ido-work-file-list '("custom.el" "test.htm" "init.el" "train.html" "5yluyin Google‘·Ö‘Îö‘´ú‘Âë.txt" ".vimrc"))
+(setq minibuffer-history nil)
+(setq query-replace-history nil)
+(setq read-expression-history nil)
+(setq regexp-history nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq search-ring nil)
+(setq shell-command-history nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/nothingness/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(linum-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode page-break-lines-mode whole-line-or-region-mode hes-mode guide-key-mode highlight-symbol-mode)
+  1
+  '(2053 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/nothingness/.emacs.d/custom.el"
+  "custom.el"
+  'emacs-lisp-mode
+  '(linum-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode page-break-lines-mode whole-line-or-region-mode hes-mode guide-key-mode highlight-symbol-mode)
+  431
+  '(431 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
