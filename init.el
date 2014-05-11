@@ -33,7 +33,7 @@
 (require 'init-evil)
 
 (require 'init-golang)
-
+(require 'init-cscope)
 ;;----------------------------------------------------------------------------
 ;; Variables configured via the interactive 'customize' interface
 ;;----------------------------------------------------------------------------

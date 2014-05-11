@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sat May 10 22:06:43 2014
+;; Created Sun May 11 13:14:15 2014
 ;; Desktop file format version 206
 ;; Emacs version 24.3.1
 
@@ -10,57 +10,101 @@
 (setq comint-input-ring nil)
 (setq compile-history '("make -k "))
 (setq desktop-missing-file-warning nil)
-(setq extended-command-history '("shell" "godoc" "shell" "godoc" "file://" "package-list-packages" "exit-minibuffer" "quickurl" "5x5" ":q" "popwin:one-window" "cd"))
+(setq extended-command-history '("speedbar" "cscope-index-files" "speedbar" "shell" "cscope-index-files" "godef-jump-other-window" "godef-jump" "shell" "godoc" "shell" "godoc" "file://" "package-list-packages" "exit-minibuffer" "quickurl" "5x5" ":q" "popwin:one-window" "cd"))
 (setq face-name-history nil)
-(setq file-name-history '("/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-golang.el" "~/.emacs.d/init.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-golang.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "~/.emacs.d/init.el" "/Users/nothingness/.emacs.d/lisp/init-auto-complete.el" "/Users/nothingness/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-golang.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-golang.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "/Users/nothingness/.emacs.d/lisp/init-golang.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "/Users/nothingness/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "/tmp/test.htm" "/Users/nothingness/.emacs.d/init.el" "~/.emacs.d/init.el"))
+(setq file-name-history '("~/.emacs.d/init.el" "~/.emacs.d/lisp/init-auto-complete.el" "/Volumes/workspaces/eclipse/testbeego/src/test/main.go" "/Volumes/workspaces/eclipse/testbeego/src/controllers/dzbbs.go" "/Volumes/workspaces/eclipse/testbeego/src/controllers/base.go" "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "/Volumes/workspaces/eclipse/testbeego/src/models/init.go" "/Volumes/workspaces/eclipse/testbeego/src/models/UserModel.go" "/Volumes/workspaces/eclipse/testbeego/src/controllers/public.go" "~/.emacs.d/lisp/init-golang.el" "/Volumes/workspaces/eclipse/testbeego/src/models/UserModel.go" "/Volumes/workspaces/eclipse/testbeego/src/controllers/public.go" "/Volumes/workspaces/eclipse/testbeego/src/models/init.go" "/Volumes/workspaces/eclipse/testbeego/src/controllers/dzbbs.go" "/Volumes/workspaces/eclipse/testbeego/src/controllers/base.go" "/Volumes/workspaces/eclipse/testbeego/src/test/main.go" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-auto-complete.el" "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "~/.emacs.d/lisp/init-golang.el" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-auto-complete.el" "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "/Volumes/workspaces/eclipse/gotest/src/cscope.out" "~/.emacs.d/init.el" "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "~/.emacs.d/lisp/init-golang.el" "~/.emacs.d/lisp/init-auto-complete.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "/Volumes/workspaces/eclipse/gotest/src/cscope.po.out" "/Volumes/workspaces/eclipse/gotest/src/cscope.files" "/Volumes/workspaces/eclipse/gotest/src/cscope.in.out" "/Volumes/workspaces/eclipse/gotest/src/cscope.files" "/Volumes/workspaces/eclipse/gotest/src/cscope.out" "/Volumes/workspaces/eclipse/gotest/src/cscope.files" "/usr/local/bin/cscope-indexer" "~/.emacs.d/init.el" "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "~/.emacs.d/lisp/init-golang.el" "~/.emacs.d/lisp/init-auto-complete.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "~/.emacs.d/init.el" "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "~/.emacs.d/lisp/init-golang.el" "~/.emacs.d/lisp/init-auto-complete.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "/Users/nothingness/.emacs.d/lisp/init-auto-complete.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "~/.emacs.d/init.el" "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "~/.emacs.d/lisp/init-golang.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-golang.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "~/.emacs.d/lisp/init-golang.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-golang.el" "~/.emacs.d/init.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-golang.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "~/.emacs.d/init.el" "/Users/nothingness/.emacs.d/lisp/init-auto-complete.el" "/Users/nothingness/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-golang.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-golang.el" "/Volumes/workspaces/eclipse/gotest/src/hollewold.go" "/Users/nothingness/.emacs.d/lisp/init-golang.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "/Users/nothingness/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "/tmp/test.htm" "/Users/nothingness/.emacs.d/init.el" "~/.emacs.d/init.el"))
 (setq grep-find-history nil)
 (setq grep-history nil)
-(setq ido-buffer-history '("custom.el" "init.el" "*compilation*" "init-auto-complete.el" "*Packages*" "*Help*" "train.html" " *undo-tree*"))
-(setq ido-last-directory-list '(("/Volumes/workspaces/eclipse/testbeego/" . "src/") ("/Volumes/workspaces/eclipse/gotest/" . "src/") ("/Volumes/workspaces/eclipse/" . "testbeego/") ("/Volumes/workspaces/gopath/" . "src/") ("/Users/nothingness/.emacs.d/" . "lisp/") ("/Users/nothingness/" . ".emacs.d/") ("/Volumes/workspaces/VMDE/data/workspaces/" . "027model/") ("/Volumes/workspaces/VMDE/data/" . "workspaces/") ("/Volumes/workspaces/VMDE/" . "data/") ("/Volumes/workspaces/" . "eclipse/") ("/Volumes/" . "workspaces/") ("/" . "Volumes/")))
-(setq ido-work-directory-list '("/Volumes/workspaces/eclipse/testbeego/src/" "/Volumes/workspaces/eclipse/gotest/src/" "/Users/nothingness/.emacs.d/lisp/" "/Users/nothingness/.emacs.d/" "/tmp/" "/Volumes/workspaces/VMDE/data/workspaces/027model/" "/Users/nothingness/Downloads/" "/Users/nothingness/"))
-(setq ido-work-file-list '("testbeego.go" "hollewold.go" "init-auto-complete.el" "init.el" "init-golang.el" "custom.el" "test.htm" "train.html" "5yluyin Google‘·Ö‘Îö‘´ú‘Âë.txt" ".vimrc"))
-(setq minibuffer-history nil)
+(setq ido-buffer-history '("init.el" "init-auto-complete.el" "init-golang.el" "*Customize Group: Emacs*" "public.go" "init-golang.el" "testbeego.go" "init-golang.el" "cscope.out" "cscope.files" " *undo-tree*" "cscope.in.out" " *undo-tree*" "hollewold.go" "cscope.files" "cscope.out" "cscope.files" "cscope-indexer" "hollewold.go" "init-golang.el" "hollewold.go" "testbeego.go" "init-golang.el" " *undo-tree*" "init.el" "custom.el" "init.el" "*compilation*" "init-auto-complete.el" "*Packages*" "*Help*" "train.html" " *undo-tree*"))
+(setq ido-last-directory-list '(("/usr/local/" . "bin/") ("/usr/" . "local/") ("/Volumes/workspaces/eclipse/testbeego/" . "src/") ("/Volumes/workspaces/eclipse/gotest/" . "src/") ("/Volumes/workspaces/eclipse/" . "testbeego/") ("/Volumes/workspaces/gopath/" . "src/") ("/Users/nothingness/.emacs.d/" . "lisp/") ("/Users/nothingness/" . ".emacs.d/") ("/Volumes/workspaces/VMDE/data/workspaces/" . "027model/") ("/Volumes/workspaces/VMDE/data/" . "workspaces/") ("/Volumes/workspaces/VMDE/" . "data/") ("/Volumes/workspaces/" . "eclipse/") ("/Volumes/" . "workspaces/") ("/" . "Volumes/")))
+(setq ido-work-directory-list '("/Volumes/workspaces/eclipse/gotest/src/" "/usr/local/bin/" "/Users/nothingness/.emacs.d/lisp/" "/Volumes/workspaces/eclipse/testbeego/src/" "/Users/nothingness/.emacs.d/" "/tmp/" "/Volumes/workspaces/VMDE/data/workspaces/027model/" "/Users/nothingness/Downloads/" "/Users/nothingness/"))
+(setq ido-work-file-list '("cscope.out" "cscope.po.out" "cscope.files" "cscope.in.out" "cscope-indexer" "init-auto-complete.el" "testbeego.go" "hollewold.go" "init.el" "init-golang.el"))
+(setq minibuffer-history '("BaseController" "CheckLogin" "Pwdhash" "Connect" "createdb" "Syncdb" "models.Syncdb" "router" "fmt.Printf" "Printf" "vname1" "nini()" "nini" "fmt.Printf"))
 (setq query-replace-history nil)
 (setq read-expression-history nil)
 (setq regexp-history nil)
-(setq regexp-search-ring '("\\_<Printf\\_>"))
+(setq regexp-search-ring '("fmt" "\\_<Printf\\_>" "\\_<fmt\\_>" "\\_<Printf\\_>"))
 (setq register-alist nil)
-(setq search-ring nil)
+(setq search-ring '("nini"))
 (setq shell-command-history nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go"
-  "testbeego.go"
+  "/Volumes/workspaces/eclipse/testbeego/src/controllers/base.go"
+  "base.go"
   'go-mode
   '(linum-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode highlight-symbol-mode)
-  358
-  '(545 nil)
+  203
+  '(203 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Volumes/workspaces/eclipse/testbeego/src/test/main.go"
+  "main.go"
+  'go-mode
+  '(linum-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode highlight-symbol-mode)
+  94
+  '(94 nil)
   nil
   nil
   '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/Volumes/workspaces/eclipse/gotest/src/hollewold.go"
-  "hollewold.go"
+  "/Volumes/workspaces/eclipse/testbeego/src/controllers/public.go"
+  "public.go"
   'go-mode
   '(linum-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode highlight-symbol-mode)
-  189
-  '(189 nil)
+  106
+  '(106 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Volumes/workspaces/eclipse/testbeego/src/models/UserModel.go"
+  "UserModel.go"
+  'go-mode
+  '(linum-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode highlight-symbol-mode)
+  893
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Volumes/workspaces/eclipse/testbeego/src/models/init.go"
+  "init.go"
+  'go-mode
+  '(linum-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode highlight-symbol-mode)
+  1991
+  '(1991 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Volumes/workspaces/eclipse/testbeego/src/testbeego.go"
+  "testbeego.go"
+  'go-mode
+  '(linum-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode highlight-symbol-mode)
+  453
+  '(453 nil)
   nil
   nil
   '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
 
 (desktop-create-buffer 206
-  "/Users/nothingness/.emacs.d/lisp/init-golang.el"
-  "init-golang.el"
-  'emacs-lisp-mode
-  '(linum-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode page-break-lines-mode whole-line-or-region-mode hes-mode guide-key-mode highlight-symbol-mode)
-  163
-  '(163 nil)
+  "/Volumes/workspaces/eclipse/testbeego/src/controllers/dzbbs.go"
+  "dzbbs.go"
+  'go-mode
+  '(linum-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode highlight-symbol-mode)
+  1
+  '(1 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix)))
 
