@@ -5,6 +5,8 @@
 (setq *xemacs* (featurep 'xemacs) )
 (setq *emacs23* (and (not *xemacs*) (or (>= emacs-major-version 23))) )
 (setq *emacs24* (and (not *xemacs*) (or (>= emacs-major-version 24))) )
+(set-fontset-font "fontset-default"
+    'gb18030 '("Microsoft YaHei" . "unicode-bmp"))
 
 (require 'init-utils)
 (require 'init-site-lisp)
